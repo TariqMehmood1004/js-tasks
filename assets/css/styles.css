@@ -1,0 +1,57 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=AR+One+Sans:wght@400;500;600&family=Montserrat:wght@300;400;500;600&family=Noto+Nastaliq+Urdu:wght@400;500;600;700&family=Open+Sans:wght@300;400;500;600&family=Roboto:wght@300;400;500&display=swap");
+footer {
+  margin-top: 10vw;
+}
+
+:root {
+  --white: #fff;
+  --black: #000;
+  --gray-50: #f7f7f8;
+  --gray-100: #ececf1;
+  --gray-200: #d9d9e3;
+  --gray-300: #c5c5d2;
+  --gray-400: #acacbe;
+  --gray-500: #8e8ea0;
+  --gray-600: #565869;
+  --gray-700: #40414f;
+  --gray-800: #343541;
+  --gray-900: #202123;
+  --gray-950: #050509;
+  --gizmo-gray-500: #999;
+  --gizmo-gray-600: #666;
+  --gizmo-gray-950: #0f0f0f;
+}
+
+html {
+  --text-primary: var(--gray-800);
+  --text-secondary: var(--gray-600);
+  --text-tertiary: var(--gray-500);
+  --surface-primary: var(--white);
+  --surface-secondary: var(--gray-50);
+  --surface-tertiary: var(--gray-100);
+  --border-light: var(--gray-100);
+  --border-medium: var(--gray-200);
+  --border-heavy: var(--gray-300);
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+     -moz-text-size-adjust: 100%;
+          text-size-adjust: 100%;
+  font-feature-settings: normal;
+  font-family: Söhne, ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, Ubuntu, Cantarell, "Noto Sans", sans-serif, "Helvetica Neue", Arial, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-variation-settings: normal;
+  line-height: 1.5;
+  -moz-tab-size: 4;
+    -o-tab-size: 4;
+       tab-size: 4;
+}
+
+body {
+  /* font-family: 'AR One Sans', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Noto Nastaliq Urdu', serif;
+  font-family: 'Open Sans', sans-serif; */
+  font-family: "Roboto", sans-serif;
+}/*# sourceMappingURL=styles.css.map */
